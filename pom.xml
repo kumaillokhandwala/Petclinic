@@ -310,11 +310,11 @@
                 <directory>${project.basedir}/src/test/resources</directory>
             </testResource>
         </testResources>
-         <plugins>
-             <plugin>
+        <plugins>
+              <plugin>
                <groupId>org.owasp</groupId>
                <artifactId>dependency-check-maven</artifactId>
-               <version>INSERT_VERSION_HERE</version>
+               <version>6.5.1</version>
                <executions>
                  <execution>
                    <goals>
@@ -323,8 +323,6 @@
                  </execution>
                </executions>
              </plugin>
-         </plugins>
-        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
