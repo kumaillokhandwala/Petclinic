@@ -578,9 +578,6 @@
             <name>maven-releases</name>
             <url>http://132.196.58.46:8081/repository/maven-releases/</url>
         </repository>
-    </repositories>
-
-    <repositories>
         <repository>
             <id>repository.spring.milestone</id>
             <name>Spring Milestone Repository</name>
